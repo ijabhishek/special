@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    /* Set the background color as you like */
+}
+
+header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.image-container img {
+    width: 200px;
+    /* Set the desired width for the image */
+    border-radius: 50%;
+    /* Make the image round */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #18d366;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+nav li a.active {
+    background-color: #FD6C03;
+    color: #fff;
+}
+
+.content {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #333;
+    /* Customize the heading color */
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+    /* Customize the paragraph text color */
+}
+
+footer {
+    background-color: #312f2f;
+    color: #ffffff;
+    padding: 5px;
+    text-align: center;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.made-in {
+    font-size: 13px;
+    font-family: 'Special Elite', cursive;
+}
+
+.made-in span {
+    color: #ff0202;
+    /* Replace with your desired color */
+}

@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('flower_d.jpg');
+}
+
+#showMorningButton {
+    cursor: pointer;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#showMorningButton:hover {
+    background-color: #0056b3;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url('flower_o.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.popup-content {
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Update styles for the close button to be below the content and lower */
+button#closeButton {
+    cursor: pointer;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 50px;
+    /* Adjust this value to control the distance below the popup content */
+}
+
+button#closeButton:hover {
+    background-color: #0056b3;
+}
+
+/* Update styles for the audio controls to be below the content and lower */
+audio {
+    margin-top: 50px;
+    /* Adjust this value to control the distance below the popup content */
+}
+
+/* Add styles for the "Thank You" popup */
+#thankYouPopup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url('smile.png');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Update styles for the close button in the "Thank You" popup to be below and lower */
+button#thankYouCloseButton {
+    cursor: pointer;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 50px;
+    /* Adjust this value to control the distance below the popup content */
+}
+
+button#thankYouCloseButton:hover {
+    background-color: #0056b3;
+}
